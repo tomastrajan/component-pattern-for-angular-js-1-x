@@ -1,6 +1,6 @@
-# Angular 1.x Component Pattern Example
+# Component Pattern for Angular JS 1.X
 
-
+![Components](/src/asset/image/components.jpg?raw=true "Component Patternf for Angular JS 1.X")
 
 ## Features
 
