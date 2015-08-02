@@ -1,16 +1,11 @@
 export default function() {
 
-    console.log('UIC');
-
     return {
         scope: {},
         controller: UserInfoComponent,
         controllerAs: 'ctrl',
         bindToController: true,
-        template:
-            `
-                <div>Hi {{ctrl.name}}!</div>
-            `
+        template: '<span style="color: #0088cc;">Hi {{ctrl.name}}!'
     };
 
 }
@@ -19,7 +14,6 @@ class UserInfoComponent {
 
     constructor() {
         this.name = 'Tomas';
-        console.log(this);
     }
 
 }

@@ -1,4 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './app.css';
+
 import bootstrap from 'bootstrap';
 
 import angular from 'angular';
