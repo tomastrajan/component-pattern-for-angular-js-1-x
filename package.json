@@ -1,7 +1,7 @@
 {
-  "name": "angular-webpack-workflow",
+  "name": "component-pattern-for-angular-js-1-x",
   "version": "1.0.0",
-  "description": "A workflow for Angular made with Webpack",
+  "description": "Example of how to implement Component Pattern in Angular JS 1.X",
   "scripts": {
     "build": "webpack --config webpack.build.js --bail -p",
     "dev": "webpack-dev-server --history-api-fallback --hot --inline --progress",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Foxandxss/angular-webpack-workflow.git"
+    "url": "https://github.com/tomastrajan/component-pattern-for-angular-js-1-x"
   },
-  "author": "Jesus Rodriguez",
+  "author": "Tomas Trajan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Foxandxss/angular-webpack-workflow/issues"
+    "url": "https://github.com/tomastrajan/component-pattern-for-angular-js-1-x/issues"
   },
-  "homepage": "https://github.com/Foxandxss/angular-webpack-workflow",
+  "homepage": "https://github.com/tomastrajan/component-pattern-for-angular-js-1-x",
   "dependencies": {
     "angular": "^1.3.16",
     "angular-ui-router": "^0.2.15",

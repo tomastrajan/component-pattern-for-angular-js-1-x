@@ -1,10 +1,15 @@
 # Component Pattern for Angular JS 1.X
 
+* original blog post describing [Component Pattern](https://medium.com/@tomastrajan/component-paradigm-cf32e94ba78b)
+* presentation describing history of Angular JS concepts and [Component Pattern](https://slides.com/tomastrajan/component-pattern-for-angular-js-1-x)
+
 ![Components](/src/asset/image/components.jpg?raw=true "Component Patternf for Angular JS 1.X")
 
 ## Features
 
-* add ...
+* standard implementation of a state using `ui-router`
+* component implementation used as inline template in `ui-router` state definition
+* ES6, Webpack
 
 ## Installation
 
