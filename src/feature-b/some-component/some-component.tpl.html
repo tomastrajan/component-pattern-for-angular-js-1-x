@@ -1,7 +1,11 @@
-<p>Component template - <span user-info-component></span></p>
-<p>{{ctrl.property}}</p>
-<p>Counter: {{ctrl.count}}</p>
+<div class="jumbotron">
+    <h1>Feature B!</h1>
+    <h2>Feature B is implemented as Component using "Component Pattern"</h2>
+    <br />
+    <p>Feature is so great that it even contains counter functionality! It also contains: {{ctrl.property}}</p>
+    <p>Counter: <strong>{{ctrl.count}}</strong></p>
+    <p>Oh, and don't forget about <code>user-info-component</code> which we just reused here... Sick! <span user-info-component></span></p>
 
-<button ng-click="ctrl.increment()">Increment counter</button>
-
-
+    <button class="btn btn-success" ng-click="ctrl.increment()">Increment counter</button>
+    <button class="btn btn-info" ui-sref="app.feature-a">Try Feature A</button>
+</div>
