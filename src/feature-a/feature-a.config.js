@@ -1,3 +1,5 @@
+import template from './feature-a.tpl.html'
+
 export function routing($stateProvider) {
 
     $stateProvider
@@ -5,6 +7,6 @@ export function routing($stateProvider) {
             url: '/feature-a',
             controller: 'FeatureACtrl',
             controllerAs: 'ctrl',
-            template: require('./feature-a.tpl.html')
+            template: template
         });
 }

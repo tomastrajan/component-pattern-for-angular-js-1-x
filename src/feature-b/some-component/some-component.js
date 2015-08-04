@@ -1,3 +1,5 @@
+import template from './some-component.tpl.html'
+
 export default function() {
 
     return {
@@ -5,7 +7,7 @@ export default function() {
         controller: SomeComponent,
         controllerAs: 'ctrl',
         bindToController: true,
-        template: require('./some-component.tpl.html')
+        template: template
     };
 
 }
