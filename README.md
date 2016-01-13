@@ -1,3 +1,8 @@
+### ATTENTION
+This is one of the first Angular JS repositories I created, if you like component pattern
+and want a seed project use [Angular JS 1.X ES6 seed](https://github.com/tomastrajan/angular-js-es6-testing-example)
+which contains better `webpack` build and testing out of the box, happy hacking!
+
 # Component Pattern for Angular JS 1.X
 
 * original blog post describing [Component Pattern](https://medium.com/@tomastrajan/component-paradigm-cf32e94ba78b)
