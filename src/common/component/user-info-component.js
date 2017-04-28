@@ -5,7 +5,7 @@ export default function() {
         controller: UserInfoComponent,
         controllerAs: 'ctrl',
         bindToController: true,
-        template: '<span style="color: #0088cc;">Hi {{ctrl.name}}!'
+        template: '<span style="color: #0088cc;">Hi {{ctrl.name}}!</span>'
     };
 
 }
