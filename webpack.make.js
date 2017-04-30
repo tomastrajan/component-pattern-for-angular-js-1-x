@@ -187,11 +187,12 @@ module.exports = function makeWebpackConfig(options) {
     if (!TEST) {
         // Reference: https://github.com/ampedandwired/html-webpack-plugin
         // Render index.html
+        // minify options https://github.com/kangax/html-minifier#options-quick-reference
         config.plugins.push(
             new HtmlWebpackPlugin({
                 template: './src/index.html',
                 inject: 'body',
-                minify: BUILD
+                minify: BUILD ? {} : BUILD
             })
         )
     }
